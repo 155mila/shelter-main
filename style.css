@@ -183,7 +183,7 @@ nav {
   width: 100%;
   display: flex;
   flex-direction: column;
-  /*align-items: center;*/
+  align-items: center;
   justify-content: center;
   margin-top: 5rem;
 }
@@ -194,22 +194,16 @@ nav {
   padding-bottom: 3.8125rem;
   margin-top: 3.75rem;
 }
-
-.container-cards {
-  overflow: hidden;
-}
 .cards-product {
   display: flex;
-  transition: 0.2s;
-  /*max-width: 70rem;*/
 }
 .item-card {
-  min-width: 270px;
+  width: 16.875rem;
   height: 27.1875rem;
   text-align: center;
   background: #fafafa;
   border-radius: 0.5625rem;
-  margin: 0 39px 0 56px;
+  margin: 0 2.1875rem 0 3.4375rem;
   transition: 0.2s;
 }
 .cards-product .item-card:nth-child(3) {
@@ -217,6 +211,7 @@ nav {
 }
 
 .item-card:hover {
+  transform: scale(1.05);
   box-shadow: 0 2px 35px 14px rgba(13, 13, 13, 0.04),
     0 10px 10px rgba(0, 0, 0, 0.22);
 }
@@ -228,7 +223,6 @@ nav {
   letter-spacing: 0.06em;
   color: #545454;
   font-weight: 100;
-  margin: 0 auto;
 }
 .card-title {
   font-size: 1.25rem;
@@ -256,7 +250,7 @@ nav {
 .btn-paint.friends {
   width: 16.3125rem;
   height: 3.25rem;
-  margin: 0 auto;
+  margin: 0 0 0.1875rem 0.1875rem;
   padding: 0.9375rem 2.75rem;
 }
 .btn-paint.cards:hover {
@@ -306,8 +300,8 @@ nav {
 }
 
 .border-circle {
-  min-width: 3.25rem;
-  height: 3.25rem;
+  width: 3rem;
+  height: 3rem;
   line-height: 1.875rem;
   border-radius: 50%;
   text-align: center;
@@ -317,12 +311,6 @@ nav {
 .border-circle:hover {
   background: #f1cdb3;
 }
-
-.border-circle:disabled {
-  border: 2px solid grey;
-  background: #e6e6e6;
-}
-
 .help {
   height: 38.1875rem;
   background: #fff;
@@ -591,13 +579,7 @@ footer a {
     display: none;
   }
   .item-card {
-    margin: 0 32px 0 12px;
-  }
-  .border-circle.left {
-    margin-left: 28px;
-  }
-  .border-circle.right {
-    margin-right: 32px;
+    margin: 0 12px 0 18px;
   }
   .help {
     height: 779px;
@@ -795,7 +777,6 @@ footer a {
     margin-top: 2rem;
     padding-bottom: 2.1875rem;
   }
-  /*.container-cards {overflow: visible;}*/
   .help {
     height: 745px;
   }
