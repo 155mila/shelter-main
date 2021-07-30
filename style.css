@@ -217,7 +217,6 @@ nav {
 }
 
 .item-card:hover {
-  transform: scale(1.05);
   box-shadow: 0 2px 35px 14px rgba(13, 13, 13, 0.04),
     0 10px 10px rgba(0, 0, 0, 0.22);
 }
