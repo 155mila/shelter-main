@@ -503,26 +503,6 @@ footer a {
   margin-top: 2.1875rem;
   padding-left: 1.375rem;
 }
-.menu-burger span,
-.menu-burger span::before,
-.menu-burger span::after {
-  display: block;
-  position: absolute;
-  width: 30px;
-  height: 2px;
-  background-color: #f1cdb3;
-}
-.menu-burger > span::before {
-  content: '';
-  top: -8px;
-}
-.menu-burger > span::after {
-  content: '';
-  top: 8px;
-}
-.menu-burger {
-  display: none;
-}
 
 .border-circle.left {
   grid-area: a;
@@ -551,22 +531,12 @@ footer a {
   margin-top: 2rem;
   padding-bottom: 2.1875rem;
 }
-.help {
-  height: 745px;
-}
 .help-content {
   margin-top: 2rem;
 }
 .help-content h3 {
   font-size: 1.5625rem;
   width: 230px;
-}
-.first-row {
-  display: grid;
-  grid-template-columns: 150px 150px;
-}
-.item-icon {
-  margin: 0px 0px 9px 0px;
 }
 .item-icon .title-icon {
   font-size: 0.9375rem;
@@ -576,92 +546,6 @@ footer a {
 }
 .item-icon img {
   transform: scale(0.85);
-}
-.addition-content {
-  flex-direction: column;
-  padding-top: 2.875rem;
-  align-items: center;
-}
-.addition-text h3 {
-  font-size: 1.5625rem;
-  width: 227px;
-  text-align: center;
-  margin: 0 auto;
-}
-.addition-img {
-  margin-left: 29px;
-  margin-top: -7px;
-}
-.addition-img img {
-  width: 16.25rem;
-  padding: 52px 0 0 0;
-}
-.addition-text {
-  order: -1;
-  margin-left: 1.125rem;
-}
-.card {
-  width: 281px;
-}
-.card a {
-  font-size: 0.9375rem;
-}
-.addition-text p {
-  width: 280px;
-  text-align: justify;
-}
-.addition-text span {
-  font-size: 0.875rem;
-  line-height: 160%;
-}
-.addition {
-  height: 545px;
-}
-footer {
-  height: 809px;
-}
-.footer-content {
-  width: 100%;
-  flex-direction: column;
-  margin-left: 33px;
-  align-items: center;
-}
-footer h3 {
-  font-size: 1.5625rem;
-  line-height: 1.8125rem;
-  text-align: center;
-  margin-top: 4px;
-}
-.footer-info {
-  flex-direction: column;
-}
-.contact,
-.location {
-  align-items: center;
-  margin-right: 0;
-  margin-top: 2rem;
-}
-.location {
-  margin-top: 157px;
-}
-.link-mail,
-.link-tel {
-  margin-right: 1.25rem;
-}
-.loc-one,
-.loc-two {
-  margin-left: 0;
-  margin-right: 12px;
-  margin-top: 40px;
-}
-.footer-img {
-  margin: 0 auto;
-  padding-top: 168px;
-  padding-left: 0;
-  padding-right: 40px;
-}
-.footer-img img {
-  width: 16.25rem;
 }
 
 .active {
@@ -1068,6 +952,102 @@ footer h3 {
   }
   .container-cards .item-card {
     margin: 0 auto;
+  }
+  .first-row {
+    display: grid;
+    grid-template-columns: 150px 150px;
+  }
+  .addition {
+    height: 545px;
+  }
+  .addition-content {
+    flex-direction: column;
+    padding-top: 2.875rem;
+    align-items: center;
+  }
+  .addition-img {
+    margin-left: 29px;
+    margin-top: -7px;
+  }
+  .addition-img img {
+    width: 16.25rem;
+    padding: 52px 0 0 0;
+  }
+  .addition-text {
+    order: -1;
+    margin-left: 1.125rem;
+  }
+  .addition-text p {
+    width: 280px;
+    text-align: justify;
+  }
+  .addition-text span {
+    font-size: 0.875rem;
+    line-height: 160%;
+  }
+  .card {
+    width: 281px;
+  }
+  .card a {
+    font-size: 0.9375rem;
+  }
+  .footer-content {
+    width: 100%;
+    flex-direction: column;
+    margin-left: 33px;
+    align-items: center;
+  }
+  footer {
+    height: 809px;
+  }
+  .footer-content {
+    width: 100%;
+    flex-direction: column;
+    margin-left: 33px;
+    align-items: center;
+  }
+  footer h3 {
+    font-size: 1.5625rem;
+    line-height: 1.8125rem;
+    text-align: center;
+    margin-top: 4px;
+  }
+  .footer-info {
+    flex-direction: column;
+  }
+  .contact,
+  .location {
+    align-items: center;
+    margin-right: 0;
+    margin-top: 2rem;
+  }
+  .location {
+    margin-top: 157px;
+  }
+  .link-mail,
+  .link-tel {
+    margin-right: 1.25rem;
+  }
+  .loc-one,
+  .loc-two {
+    margin-left: 0;
+    margin-right: 12px;
+    margin-top: 40px;
+  }
+  .footer-img {
+    margin: 0 auto;
+    padding-top: 168px;
+    padding-left: 0;
+    padding-right: 40px;
+  }
+  .footer-img img {
+    width: 16.25rem;
+  }
+  .item-icon {
+    margin: 0px 0px 9px 0px;
+  }
+  .help {
+    height: 745px;
   }
 }
 
