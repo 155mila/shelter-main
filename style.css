@@ -717,10 +717,6 @@ footer a {
   -o-transition: transform 0.4s ease-in-out;
 }
 
-.nav-link:hover::before {
-  transform: scaleX(1);
-}
-
 @media only screen and (max-width: 1279px) and (min-width: 768px) {
   .wrapper {
     margin: auto;
